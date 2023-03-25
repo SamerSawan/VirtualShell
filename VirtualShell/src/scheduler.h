@@ -1,0 +1,11 @@
+int load_file(char* script);
+struct PCB;
+void addProcess(struct PCB newProcess);
+void removeProcess();
+int runProcess();
+void sortByLen();
+void removeByPID(int PID);
+struct PCB * getLowestAge();
+int RRRun();
+int Aging();
+int load_page(char* script, int pagenumber, struct PCB *program);

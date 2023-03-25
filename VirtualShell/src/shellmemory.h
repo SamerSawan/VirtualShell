@@ -1,0 +1,11 @@
+void mem_init();
+struct LRUNode;
+char *mem_get_value(char *var);
+void mem_set_value(char *var, char *value);
+void var_mem_reset();
+int add_to_frame(char *address[3], int len);
+char * get_address(int index);
+int evictFrame();
+void insert(int framenum);
+void removeNode(int framenum);
+int removeLast();
